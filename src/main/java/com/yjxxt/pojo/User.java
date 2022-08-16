@@ -89,4 +89,16 @@ public class User {
     public void setHead(String head) {
         this.head = head;
     }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "id=" + id +
+                ", userName='" + userName + '\'' +
+                ", userPwd='" + userPwd + '\'' +
+                ", nick='" + nick + '\'' +
+                ", mood='" + mood + '\'' +
+                ", head='" + head + '\'' +
+                '}';
+    }
 }
